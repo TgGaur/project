@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Fascinate&family=Nunito:wght@300&family=Source+Code+Pro:wght@200&family=Special+Elite&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body style="background-image: url('preview16 (1).jpg'); background-position: static; background-size: cover;">
+
+    <div class="header"
+        style=" border-style: groove; border-color: white; border-width: 2px;  text-align: center; height: 60px;">
+
+        <div class="icon" style="width: fit-content;">
+
+            <img onclick="home()" src="icons8-mayura-gesture-64.png" alt="" style="
+                height: 30px; width: 30px; border-radius: 75px; border-color: white; border-width: 0px; border-style: groove; padding: 5px 5px 5px 5px; 
+                margin: 10px 10px 10px 10px; background-color: white;">
+
+            <h2 onclick="home()" class=" hover-underline-animation"
+                style="color: white; float: right; margin-right: 70px; font-family: monospace; text-align: center; font-size: 20;">
+                HOME</h2>
+        </div>
+
+        <div class="botton">
+            <h1 style="font-size: 22px;margin-right: 10px; font-family: monospace; background-color: transparent; color: white; float: left; position: relative; top: -13px; font-size: 25px;
+            ">Gesture AI</h1>
+            <button class=" hover-underline-animation" onclick="start()" style="font-size: 20px;margin-right: 10px; font-family: monospace; background-color: transparent; color: white; float: right; position: relative; 
+            ">Go to console</button>
+        </div>
+    </div>
+
+    <div class="tt">
+        <h1 class="hover-underline-animation" style="text-align: center; color: white; font-size: 70px;">Identify your
+            Gesture with our <span style="color: rgb(187, 68, 195); font-size: 75px;">AI</span></h1>
+        <h3 style="color: white; margin-top: 00px;" class="hover-underline-animation">We are using Teachable Machine AI,
+            Teachable Machine is a web-based tool that makes creating machine learning models fast, easy, and accessible
+            to everyone.
+            </h4>
+            <button class="console hover-underline-animation" onclick="start()">Getting Started</button>
+
+    </div>
+</body>
+
+<script>
+    function start() {
+        window.location.href = "next.html";
+    }
+    function home() {
+        window.location.href = "main.html";
+    }
+
+</script>
+
+</html>

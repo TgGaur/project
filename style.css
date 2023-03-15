@@ -1,0 +1,116 @@
+.icon {
+    width: 45%;
+    position: relative;
+    float: left;
+    text-align: left;
+
+}
+
+.botton {
+    width: 55%;
+    position: relative;
+    float: right;
+    text-align: right;
+    margin-top: 13px;
+}
+
+.t1 {
+    font-family: 'Nunito', sans-serif;
+    margin-top: 100px;
+    transition-duration: 0.4s;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: rgb(187, 68, 195);  
+}
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(187, 68, 195);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+.h3 {
+    text-align: center;
+}
+
+.tt {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+}
+
+.console {
+    font-size: 30px;
+    background-color: transparent;
+
+    border-radius: 75px;
+    border-width: 0px;
+    border-style: groove;
+    border-color: white;
+    margin-top: 45px;
+    padding: 10px 10px 10px 10px;
+    color: rgb(188, 95, 195);
+}
+
+.d1 {
+    width: 99%;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    height: 550px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgba(0, 0, 0, 0.459);
+    margin-top: 50px;
+    transition: all 0.5s ease-in-out;
+}
+.d2 {
+    width: 99%;
+    float: right;
+    height: max-content;
+    text-align: center;
+    border-style: groove;
+    border-color: white;
+    border-width: 2px;
+    height: 0px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    visibility: hidden;
+}
+
+.web {
+    border-style: groove;
+    border-color: white;
+    border-width: 2px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+.AC{
+    font-family: 'Nunito', sans-serif;
+    color:  rgb(188, 132, 192);
+}
